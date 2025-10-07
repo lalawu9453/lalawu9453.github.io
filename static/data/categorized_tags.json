@@ -1,0 +1,74 @@
+{
+  "大型語言模型與 NLP": [
+    "LLM",
+    "GPT",
+    "Gemini",
+    "NLP",
+    "Embeddings",
+    "Word2Vec",
+    "Similarity Search",
+    "Vector Database"
+  ],
+  "機器學習框架與函式庫": [
+    "TensorFlow",
+    "PyTorch",
+    "Python",
+    "Matplotlib",
+    "Seaborn"
+  ],
+  "核心 AI/ML 概念": [
+    "Machine Learning",
+    "Deep Learning",
+    "Reinforcement Learning",
+    "Transfer Learning",
+    "Collaborative Filtering",
+    "Time Series",
+    "Forecasting",
+    "Q-Learning",
+    "LSTM",
+    "Concepts"
+  ],
+  "AI 倫理與可解釋性": [
+    "Ethical AI",
+    "Explainable AI",
+    "XAI",
+    "Bias",
+    "Fairness",
+    "Responsibility",
+    "Black Box",
+    "AI for Good"
+  ],
+  "電腦視覺與生成藝術": [
+    "Object Detection",
+    "YOLO",
+    "Generative Art",
+    "Stable Diffusion",
+    "Midjourney",
+    "Generative AI"
+  ],
+  "硬體與基礎設施": [
+    "GPU",
+    "TPU",
+    "NVIDIA",
+    "Google"
+  ],
+  "開發與部署": [
+    "MLOps",
+    "Deployment",
+    "CI/CD",
+    "Netlify",
+    "Hugo",
+    "Productivity",
+    "Efficiency",
+    "Beginner",
+    "Fine-tuning"
+  ],
+  "AI 應用領域": [
+    "Healthcare",
+    "Climate Change",
+    "AI Agents",
+    "Recommendation Engine",
+    "Real-time",
+    "Data Visualization"
+  ]
+}
