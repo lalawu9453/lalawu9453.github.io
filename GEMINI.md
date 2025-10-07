@@ -1,4 +1,4 @@
-# 專案：AI 驅動的內容引擎 (AI-Driven Content Engine)
+# 專案：AI 驅動的內容引擎 (Any Theads AI-Driven Content Engine)
 
 ## 1. 核心理念
 
