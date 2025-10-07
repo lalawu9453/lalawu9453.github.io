@@ -8,6 +8,8 @@ A highly automated blog content engine powered by Hugo and assisted by AI.
 
 ## About The Project
 
+![](./branner.jpg)
+
 This project aims to build a deluxe, highly automated, SEO-friendly blog. It's not just a content publishing platform, but a "Content Engine" that can continuously expand its content, improve site authority, and drive traffic through AI assistance and automated workflows.
 
 ### Key Features
