@@ -77,7 +77,7 @@
 - [x] **任務 2.5:** UI/UX 優化 (第一階段)，改善字體、顏色與導覽列體驗。
 
 ### 階段三：自動化與部署 (Automation & Deployment)
-- [ ] **任務 3.1:** 建立 GitHub Actions 的 CI/CD 工作流程 (`deploy.yml`)。
+- [x] **任務 3.1:** 建立 GitHub Actions 的 CI/CD 工作流程 (`deploy.yml`)。
 - [ ] **任務 3.2:** 進行第一次自動化部署測試，確保 `push` 後網站能成功更新。
 
 ### 階段四：內容策略與擴展 (Content Strategy & Scaling)
