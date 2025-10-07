@@ -1,5 +1,7 @@
 # AI-Driven Content Engine
 
+[English Version](README.en.md)
+
 一個以 Hugo 為核心、具備 AI 輔助能力的自動化部落格內容引擎。
 
 ---
