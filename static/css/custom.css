@@ -1,0 +1,45 @@
+/* Custom CSS for ai-reporter */
+
+/* --- Font, Color, and Spacing Overhaul --- */
+
+/* 1. Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 2. Apply new color palette and fonts */
+html[data-theme='light'] body {
+    background-color: #F8F9FA; /* Soft off-white */
+    color: #212529; /* Dark charcoal */
+    font-family: 'Lora', serif; /* Professional serif for body */
+}
+
+body {
+    line-height: 1.75; /* Increase line height for readability */
+}
+
+/* 3. Apply new font to headings */
+h1, h2, h3, h4, h5, h6, .site-title, .post-tag, .load-more-btn {
+    font-family: 'Montserrat', sans-serif; /* Modern sans-serif for titles */
+}
+
+/* --- Sticky Header --- */
+
+.global-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f8f9fae0; /* Use background color with transparency */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* --- Original Rules --- */
+
+/* Hide the Table of Contents if it's empty */
+.toc #toc-content:empty {
+    display: none;
+}
+
+.toc h4:has(+ #toc-content:empty) {
+    display: none;
+}

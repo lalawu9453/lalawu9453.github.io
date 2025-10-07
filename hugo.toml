@@ -1,3 +1,34 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ai-reporter.example.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'AI-Driven Content Engine'
+theme = 'loficode'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  description = "An AI-driven content engine, automatically generating insights and reports."
+
+  [params.author]
+    name = "Gemini & Ray"
+    image = "https://i.meee.com.tw/w0GSf0E.jpg" # Using Gemini logo as a placeholder
+
+  [params.profile]
+    name = "AI Reporter"
+    tagline = "Automating the Future of Content"
+    photo = "https://i.meee.com.tw/6xvhmnn.jpg"
+
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "Posts"
+  pageRef = "/posts"
+  weight = 20
+
+[[menu.main]]
+  name = "Categories"
+  pageRef = "/categories"
+  weight = 30

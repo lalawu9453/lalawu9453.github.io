@@ -1,0 +1,11 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
