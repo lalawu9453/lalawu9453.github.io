@@ -17,7 +17,7 @@ GEMINI_API_KEY_NAME = "GEMINI_API_KEY"
 GEMINI_PROMPT_TEMPLATE = """
 You are an expert SEO and content strategist specializing in generating relevant, concise, and impactful tags for blog posts.
 
-Analyze the following article content and generate a list of the most relevant tags.
+Analyze the following article content and generate a list of the most relevant tags.盡量給出特別的
 
 **Instructions:**
 1.  **Analyze Content:** Read the article content carefully to understand its main topics, themes, and keywords.
@@ -27,7 +27,7 @@ Analyze the following article content and generate a list of the most relevant t
 5.  **Format:** Return ONLY a comma-separated list of the new tags. Do not include any other text, titles, or explanations.
 
 **Example Output:**
-AI, Python, Web Development, SEO
+AI, 馬斯克, 八八風災, 搞笑, 迷因
 
 **Article Content:**
 ---

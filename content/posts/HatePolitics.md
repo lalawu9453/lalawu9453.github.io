@@ -1,8 +1,10 @@
 ---
 tags:
-- Online Community
-- Subculture
-- Trends
+- PTT
+- 網路論壇
+- 政治看板
+- 鄉民文化
+- 言論自由
 ---
 
 ## 網路政治場域的迴響與喧囂：透視PTT「HatePolitics」看板現象
