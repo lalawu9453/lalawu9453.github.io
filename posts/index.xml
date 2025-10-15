@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on AI 驅動的內容引擎</title>
+    <link>https://lalawu9453.github.io/posts/</link>
+    <description>Recent content in Posts on AI 驅動的內容引擎</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 12 Oct 2025 11:10:00 +0800</lastBuildDate>
+    <atom:link href="https://lalawu9453.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>測試長文：深入探討範本覆蓋系統</title>
+      <link>https://lalawu9453.github.io/posts/mock-long-default-author/</link>
+      <pubDate>Sun, 12 Oct 2025 11:10:00 +0800</pubDate>
+      <guid>https://lalawu9453.github.io/posts/mock-long-default-author/</guid>
+      <description>這篇文章旨在測試我們的字數統計分類功能，並深入探討 Hugo 的範本覆蓋系統。</description>
+    </item>
+    <item>
+      <title>測試中篇：預設作者與程式碼</title>
+      <link>https://lalawu9453.github.io/posts/mock-normal-default-author/</link>
+      <pubDate>Sun, 12 Oct 2025 11:05:00 +0800</pubDate>
+      <guid>https://lalawu9453.github.io/posts/mock-normal-default-author/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;這是一篇長度適中的文章，字數設計在「正常」範圍內。本文不會指定作者，因此我們期望它能自動 fallback，顯示 &lt;code&gt;hugo.toml&lt;/code&gt; 中設定的預設作者「Ray」。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>測試短文：自訂作者</title>
+      <link>https://lalawu9453.github.io/posts/mock-short-custom-author/</link>
+      <pubDate>Sun, 12 Oct 2025 11:00:00 +0800</pubDate>
+      <guid>https://lalawu9453.github.io/posts/mock-short-custom-author/</guid>
+      <description>&lt;p&gt;這是一篇非常簡短的文章，主要用於測試「極短」或「短篇」的字數統計功能。它的內容不多，旨在快速驗證我們的範本邏輯是否正確。&lt;/p&gt;
+&lt;p&gt;我們期望這篇文章的作者顯示為「特約作家」，而不是預設的作者。同時，文章的詮釋資料應該會顯示為「極短」或「短篇」。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lalawu9453.github.io/posts/%E5%88%86%E4%BA%AB-%E4%BB%8A%E6%97%A5%E4%BD%90%E4%BD%90%E6%9C%A8%E6%9C%97%E5%B8%8C%E4%BB%8A%E6%97%A5%E4%BD%90%E4%BD%90%E6%9C%A8%E6%9C%97%E5%B8%8C/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lalawu9453.github.io/posts/%E5%88%86%E4%BA%AB-%E4%BB%8A%E6%97%A5%E4%BD%90%E4%BD%90%E6%9C%A8%E6%9C%97%E5%B8%8C%E4%BB%8A%E6%97%A5%E4%BD%90%E4%BD%90%E6%9C%A8%E6%9C%97%E5%B8%8C/</guid>
+      <description>&lt;h2 id=&#34;撥開時間迷霧佐佐木朗希2024賽季的序章與挑戰&#34;&gt;撥開時間迷霧：佐佐木朗希2024賽季的序章與挑戰&lt;/h2&gt;
+&lt;p&gt;「令和怪物」佐佐木朗希在2024年球季初展現驚人狀態，不僅被指派為千葉羅德海洋隊開幕戰先發，更在實戰中飆出157公里速球並強奪四次三振。儘管最初的資訊來源指向未來時間戳記，深度調查揭示其已確認將連續第二年擔綱開幕投手重任，並誓言克服傷病挑戰。他明確宣示目標是健康完投整個賽季，為本季表現注入強烈決心與期望。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lalawu9453.github.io/posts/%E5%88%86%E4%BA%AB-%E9%9D%A2%E5%B0%8D%E8%B2%BB%E5%9F%8E%E7%90%83%E8%BF%B7%E7%9A%84%E5%8F%AB%E5%9B%82-%E6%9C%97%E5%B8%8C%E8%81%BD%E4%B8%8D%E6%87%82%E8%8B%B1%E6%96%87/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lalawu9453.github.io/posts/%E5%88%86%E4%BA%AB-%E9%9D%A2%E5%B0%8D%E8%B2%BB%E5%9F%8E%E7%90%83%E8%BF%B7%E7%9A%84%E5%8F%AB%E5%9B%82-%E6%9C%97%E5%B8%8C%E8%81%BD%E4%B8%8D%E6%87%82%E8%8B%B1%E6%96%87/</guid>
+      <description>&lt;h2 id=&#34;我聽不懂英文一則球場軼事背後的語言文化與媒體生態觀察&#34;&gt;「我聽不懂英文」：一則球場軼事背後的語言、文化與媒體生態觀察&lt;/h2&gt;
+&lt;p&gt;在2022年MLB季後賽的激烈對抗中，坦帕灣光芒隊外野手朗希（Randy Arozarena）以一句「我聽不懂英文」巧妙回應費城球迷的叫囂，展現了球員在壓力下的幽默與智慧。此事件不僅鞏固了朗希作為季後賽明星的獨特形象，更引發了外界對體育場域中語言、文化隔閡及球員如何運用其應變能力進行互動的深度思考。這則場邊花絮，無疑已成為現代體育文化中球員與球迷互動的經典案例，同時也反映了媒體對此類事件的塑造與傳播力量。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lalawu9453.github.io/posts/%E5%95%8F%E5%8D%A6-%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%8F%83%E6%8B%9C%E9%9D%96%E5%9C%8B%E7%A5%9E%E7%A4%BE%E8%A2%AB%E6%97%A5%E6%9C%AC%E5%97%86%E6%BB%BE%E5%9B%9E%E5%8E%BB%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%8F%83%E6%8B%9C%E9%9D%96%E5%9C%8B%E7%A5%9E%E7%A4%BE%E8%A2%AB%E6%97%A5%E6%9C%AC%E5%97%86%E6%BB%BE%E5%9B%9E%E5%8E%BB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lalawu9453.github.io/posts/%E5%95%8F%E5%8D%A6-%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%8F%83%E6%8B%9C%E9%9D%96%E5%9C%8B%E7%A5%9E%E7%A4%BE%E8%A2%AB%E6%97%A5%E6%9C%AC%E5%97%86%E6%BB%BE%E5%9B%9E%E5%8E%BB%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%8F%83%E6%8B%9C%E9%9D%96%E5%9C%8B%E7%A5%9E%E7%A4%BE%E8%A2%AB%E6%97%A5%E6%9C%AC%E5%97%86%E6%BB%BE%E5%9B%9E%E5%8E%BB/</guid>
+      <description>&lt;h2 id=&#34;靖國神社歷史傷痕的交會點與跨國情感的激盪&#34;&gt;靖國神社：歷史傷痕的交會點與跨國情感的激盪&lt;/h2&gt;
+&lt;p&gt;666一份網路傳言指出，有台灣訪客在日本靖國神社參拜時，遭遇當地民眾斥責。此事件雖真實性仍待驗證，卻再次凸顯了靖國神社作為二戰爭議核心的敏感性。台灣社會對此議題的複雜情感與多元立場，亦使得參拜行為成為觸動歷史記憶與民族情感的潛在引爆點。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://lalawu9453.github.io/posts/hatepolitics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lalawu9453.github.io/posts/hatepolitics/</guid>
+      <description>&lt;h2 id=&#34;網路政治場域的迴響與喧囂透視ptthatepolitics看板現象&#34;&gt;網路政治場域的迴響與喧囂：透視PTT「HatePolitics」看板現象&lt;/h2&gt;
+&lt;p&gt;台灣最大BBS論壇批踢踢實業坊（PTT）上的「HatePolitics」看板，是一個專為台灣政治議題而設的數位場域，其以高度活躍、情感豐富且立場鮮明的討論著稱。這個平台不僅讓網友得以自由發表對政治人物、政策及社會現象的多元看法，也成為觀察台灣社會對政治議題熱情與分歧的縮影。言論自由在此得以充分展現，但也因此常伴隨著激烈的辯論與爭議性言論。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>長篇 on AI 驅動的內容引擎</title>
+    <link>https://lalawu9453.github.io/tags/%E9%95%B7%E7%AF%87/</link>
+    <description>Recent content in 長篇 on AI 驅動的內容引擎</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 12 Oct 2025 11:10:00 +0800</lastBuildDate>
+    <atom:link href="https://lalawu9453.github.io/tags/%E9%95%B7%E7%AF%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>測試長文：深入探討範本覆蓋系統</title>
+      <link>https://lalawu9453.github.io/posts/mock-long-default-author/</link>
+      <pubDate>Sun, 12 Oct 2025 11:10:00 +0800</pubDate>
+      <guid>https://lalawu9453.github.io/posts/mock-long-default-author/</guid>
+      <description>這篇文章旨在測試我們的字數統計分類功能，並深入探討 Hugo 的範本覆蓋系統。</description>
+    </item>
+  </channel>
+</rss>

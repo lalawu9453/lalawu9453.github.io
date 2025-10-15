@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>測試 on AI 驅動的內容引擎</title>
+    <link>https://lalawu9453.github.io/categories/%E6%B8%AC%E8%A9%A6/</link>
+    <description>Recent content in 測試 on AI 驅動的內容引擎</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 12 Oct 2025 11:05:00 +0800</lastBuildDate>
+    <atom:link href="https://lalawu9453.github.io/categories/%E6%B8%AC%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>測試中篇：預設作者與程式碼</title>
+      <link>https://lalawu9453.github.io/posts/mock-normal-default-author/</link>
+      <pubDate>Sun, 12 Oct 2025 11:05:00 +0800</pubDate>
+      <guid>https://lalawu9453.github.io/posts/mock-normal-default-author/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;這是一篇長度適中的文章，字數設計在「正常」範圍內。本文不會指定作者，因此我們期望它能自動 fallback，顯示 &lt;code&gt;hugo.toml&lt;/code&gt; 中設定的預設作者「Ray」。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>測試短文：自訂作者</title>
+      <link>https://lalawu9453.github.io/posts/mock-short-custom-author/</link>
+      <pubDate>Sun, 12 Oct 2025 11:00:00 +0800</pubDate>
+      <guid>https://lalawu9453.github.io/posts/mock-short-custom-author/</guid>
+      <description>&lt;p&gt;這是一篇非常簡短的文章，主要用於測試「極短」或「短篇」的字數統計功能。它的內容不多，旨在快速驗證我們的範本邏輯是否正確。&lt;/p&gt;
+&lt;p&gt;我們期望這篇文章的作者顯示為「特約作家」，而不是預設的作者。同時，文章的詮釋資料應該會顯示為「極短」或「短篇」。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
