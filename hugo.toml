@@ -1,34 +1,116 @@
-baseURL = 'https://ai-reporter.example.com/'
-languageCode = 'en-us'
-title = 'AI-Driven Content Engine'
-theme = 'loficode'
+baseURL = "https://lalawu9453.github.io/"
+languageCode = "zh-tw"
+title = "AI 驅動的內容引擎"
+theme = "PaperMod"
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyCSS = true
+  minifyHTML = true
+  minifyJS = true
+
+# Allow raw HTML in markdown
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
 [params]
-  description = "An AI-driven content engine, automatically generating insights and reports."
+  env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
+  title = "AI 驅動的內容引擎"
+  description = "一個由 AI 驅動的內容引擎，自動生成洞察與報告。"
+  author = "Ray"
+  # author: ["Me", "You"] # multiple authors
 
-  [params.author]
-    name = "Gemini & Ray"
-    image = "https://i.meee.com.tw/w0GSf0E.jpg" # Using Gemini logo as a placeholder
+  defaultTheme = "auto" # auto, light, dark
+  disableThemeToggle = false
 
-  [params.profile]
-    name = "AI Reporter"
-    tagline = "Automating the Future of Content"
-    photo = "https://i.meee.com.tw/6xvhmnn.jpg"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+
+  # home page info parameters
+  [params.homeInfoParams]
+    Title = "哈囉 👋"
+    Content = "歡迎來到這個由 AI 驅動的內容引擎。在這裡，我們探索技術、分享見解，並自動化未來的內容創作。"
+
+  # social icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/lalawu9453"
+
+  [params.analytics.google]
+    SiteVerificationTag = "XYZ..."
+  [params.analytics.bing]
+    SiteVerificationTag = "XYZ..."
+  [params.analytics.yandex]
+    SiteVerificationTag = "XYZ..."
+
+  [params.cover]
+    hidden = true # hide everywhere but not in structured data
+    hiddenInList = true # hide on list pages and home
+    hiddenInSingle = true # hide on single page
+
+  # for search
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 2
+    keys = ["title", "permalink", "summary", "content"]
 
 [[menu.main]]
-  name = "Home"
+  identifier = "home"
+  name = "首頁"
   pageRef = "/"
   weight = 10
 
 [[menu.main]]
-  name = "Posts"
+  identifier = "posts"
+  name = "文章"
   pageRef = "/posts"
   weight = 20
 
 [[menu.main]]
-  name = "Categories"
+  identifier = "categories"
+  name = "分類"
   pageRef = "/categories"
   weight = 30
+
+[[menu.main]]
+  identifier = "tags"
+  name = "標籤"
+  pageRef = "/tags"
+  weight = 40
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜尋"
+  pageRef = "/search"
+  weight = 50

@@ -1,0 +1,37 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Trigger the workflow on pushes to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allow the GITHUB_TOKEN to push to the repository
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: true # Fetch Hugo themes (submodules)
+          fetch-depth: 0    # Fetch all history for .GitInfo and for Hugo's lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest' # Use the latest Hugo version
+          extended: true         # Use Hugo extended version for SASS/SCSS
+
+      - name: Build Hugo site
+        run: hugo --minify # Build the site with minification
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public # The directory where Hugo builds the site
+          publish_branch: gh-pages # The branch to deploy to
+          force_orphan: true # Create a new gh-pages branch if it doesn't exist, or overwrite it

@@ -1,0 +1,42 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default ":date_long" site.Params.DateFormat)))) }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime)))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+    {{- $wordCount := .WordCount -}}
+    {{- $wordCountText := "" -}}
+    {{- if lt $wordCount 200 -}}
+        {{- $wordCountText = "極短" -}}
+    {{- else if lt $wordCount 500 -}}
+        {{- $wordCountText = "短篇" -}}
+    {{- else if lt $wordCount 1200 -}}
+        {{- $wordCountText = "正常" -}}
+    {{- else if lt $wordCount 2500 -}}
+        {{- $wordCountText = "長篇" -}}
+    {{- else -}}
+        {{- $wordCountText = "超長" -}}
+    {{- end -}}
+    {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" $wordCountText)) -}}
+{{- end }}
+
+{{- /* Author Logic: Use .Params.author first, then fallback to site.Params.author */ -}}
+{{- if not (.Param "hideAuthor") -}}
+    {{- $author := .Params.author | default site.Params.author -}}
+    {{- if reflect.IsSlice $author -}}
+        {{- $author = delimit $author ", " -}}
+    {{- end -}}
+    {{- if $author -}}
+        {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" $author)) }}
+    {{- end -}}
+{{- end }}
+
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}
