@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main # Trigger the workflow on pushes to the main branch
+      - main # Trigger the workflow on pushes to the main branch master
 
 jobs:
   deploy:
